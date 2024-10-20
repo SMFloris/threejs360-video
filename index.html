@@ -8,18 +8,16 @@
 		<style>
 			body {
 				touch-action: none;
+        margin: 0;
+        padding: 0;
 			}
 		</style>
 	</head>
 	<body>
-		<div id="info">
-			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - video panorama
-		</div>
-
 		<div id="container"></div>
 
 		<video id="video" loop muted crossOrigin="anonymous" playsinline style="display:none">
-			<source src="/output.webm">
+			<source src="/output.mp4">
 		</video>    
     <script type="module" src="/main.js"></script> 
   </body> 
